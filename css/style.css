@@ -9633,7 +9633,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 #videoModal .modal-dialog {
   position: relative;
-  max-width: 1024px;
+  max-width: 680px;
   margin: 60px auto 0 auto;
 }
 
