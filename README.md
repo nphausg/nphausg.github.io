@@ -1,20 +1,72 @@
-<h1 align="center"> nphausg.github.io </h1>
-
-<p align="center">
-  <a href="https://github.com/facebook/react-native/blob/HEAD/LICENSE">
-    <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="React Native is released under the MIT license." />
-  </a>
-  <a href="https://reactnative.dev/docs/contributing">
-    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome!" />
-  </a>
+<h2 align="center">
+    <img src="assets/banner.png">
+    <br> 
+    👋 Hi, I’m Leo 🇻🇳 🇸🇬 Senior Software Engineer, Mobile
+    <br>
+</h2> 
+<p>
+ I love to contribute to open source projects. I also write about software engineering, learning, and career to help readers. A true Software Engineer aspires to build a strong community and help other people grow up.
 </p>
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)
-
-## 👇 Author
-
-<p>
-    <a href="https://nphausg.medium.com/" target="_blank">
-    <img src="https://avatars2.githubusercontent.com/u/13111806?s=400&u=f09b6160dbbe2b7eeae0aeb0ab4efac0caad57d7&v=4" width="96" height="96">
+<h2 align="left">🛠️ Technologies Stack:</h2>
+<p align="left">
+    <a href="https://www.w3.org/html/" target="_blank"> 
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/>
+    </a>
+    <a href="https://www.w3schools.com/css/" target="_blank">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/>
+    </a>
+    <a href="https://www.w3schools.com/css/" target="_blank">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/>
+    </a>
+    <a href="https://www.w3schools.com/css/" target="_blank">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/androidstudio/androidstudio-original-wordmark.svg" alt="androidstudio" width="40" height="40"/>
+    </a>
+    <a href="https://www.w3schools.com/css/" target="_blank">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kotlin/kotlin-original-wordmark.svg" alt="kotlin" width="40" height="40"/>
+    </a>
+    <a href="https://www.w3schools.com/css/" target="_blank">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain-wordmark.svg" alt="firebase" width="40" height="40"/>
+    </a>
+    <a href="https://www.w3schools.com/css/" target="_blank">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original-wordmark.svg" alt="java" width="40" height="40"/>
+    </a>
+    <a href="https://www.w3schools.com/css/" target="_blank">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
+    </a>
+    <a href="https://www.w3schools.com/css/" target="_blank">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jenkins/jenkins-original.svg" alt="jenkins" width="40" height="40"/>
+    </a>
+    <a href="https://www.w3schools.com/css/" target="_blank">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jira/jira-original-wordmark.svg" alt="jira" width="40" height="40"/>
+    </a>
+    <a href="https://www.w3schools.com/css/" target="_blank">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/>
+    </a>
+    <a href="https://www.w3schools.com/css/" target="_blank">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original-wordmark.svg" alt="python" width="40" height="40"/>
+    </a>
+    <a href="https://www.w3schools.com/css/" target="_blank">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/yarn/yarn-original-wordmark.svg" alt="yarn" width="40" height="40"/>
+    </a>
+    <a href="https://www.w3schools.com/css/" target="_blank">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/swift/swift-original-wordmark.svg" alt="swift" width="40" height="40"/>
     </a>
 </p>
+
+<h2 align="left">👨🏻‍💻 About Me:</h2>
+
+
+💻 I am working as Lead Software Engineer, Mobile
+
+👀 I’m interested in Banking, Fintech, Blockchain
+
+❤️ Open Source Software
+
+🌱 I’m currently learning Deep Learning, Automation Test
+
+📚  Writing https://nphausg.medium.com
+
+📫 How to reach me: nphausg@gmail.com
+
+🔥 Twitter: https://twitter.com/nphausg

@@ -1,525 +1,913 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
+    <title>Leo N - Lead Software Engineer, Mobile</title>
     <meta charset="utf-8">
-    <title>Hau & Tanh Wedding</title>
-    <!-- Favicon -->
-    <link rel="icon" href="/favicon.ico" type="image/x-icon" href="/favicon.ico">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;600&display=swap" rel="stylesheet"> 
-
-    <!-- Font Awesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet">
-
-    <!-- Libraries Stylesheet -->
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
-
-    <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
-</head>
-
-<body data-spy="scroll" data-target=".navbar" data-offset="51">
-    <!-- Navbar Start -->
-    <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-dark navbar-dark py-3 py-lg-0 px-lg-5">
-        <a href="index.html" class="navbar-brand d-block d-lg-none">
-            <h1 class="font-secondary text-white mb-n2">Hau <span class="text-primary">&</span> Tanh</h1>
-        </a>
-        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-            <div class="navbar-nav ml-auto py-0">
-                <a href="#home" class="nav-item nav-link active">Home</a>
-                <a href="#about" class="nav-item nav-link">About</a>
-                <a href="#story" class="nav-item nav-link">Story</a>
-                <a href="#gallery" class="nav-item nav-link">Gallery</a>
-            </div>
-            <a href="index.html" class="navbar-brand mx-5 d-none d-lg-block">
-                <h1 class="font-secondary text-white mb-n2">Hậu <span class="text-primary">&</span> Tánh</h1>
-            </a>
-            <div class="navbar-nav mr-auto py-0">
-                <a href="#event" class="nav-item nav-link">Event</a>
-                <a href="#rsvp" class="nav-item nav-link">RSVP</a>
-                <a href="#contact" class="nav-item nav-link">Contact</a>
-            </div>
-        </div>
-    </nav>
-    <!-- Navbar End -->
-
-
-    <!-- Carousel Start -->
-    <div class="container-fluid p-0 mb-5 pb-5" id="home">
-        <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item position-relative active" style="height: 100vh; min-height: 400px;">
-                    <img class="position-absolute w-100 h-100" src="img/carousel-1.jpg" style="object-fit: cover;">
-                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                        <div class="p-3" style="max-width: 900px;">
-                            <h1 class="display-1 font-secondary text-white mt-n3 mb-md-4">Hậu & Tánh</h1>
-                            <div class="d-inline-block border-top border-bottom border-light py-3 px-4">
-                                <h3 class="text-uppercase font-weight-normal text-white m-0" style="letter-spacing: 2px;">We're getting married</h3>
-                            </div>
-                            <button type="button" class="btn-play mx-auto" data-toggle="modal"
-                                data-src="video/engagement.mp4" data-target="#videoModal">
-                                <span></span>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item position-relative" style="height: 100vh; min-height: 400px;">
-                    <img class="position-absolute w-100 h-100" src="img/carousel-2.jpg" style="object-fit: cover;">
-                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                        <div class="p-3" style="max-width: 900px;">
-                            <h1 class="display-1 font-secondary text-white mt-n3 mb-md-4">Hậu & Tánh</h1>
-                            <div class="d-inline-block border-top border-bottom border-light py-3 px-4">
-                                <h3 class="text-uppercase font-weight-normal text-white m-0" style="letter-spacing: 2px;">We're getting married</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item position-relative" style="height: 100vh; min-height: 400px;">
-                    <img class="position-absolute w-100 h-100" src="img/carousel-3.jpg" style="object-fit: cover;">
-                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                        <div class="p-3" style="max-width: 900px;">
-                            <h1 class="display-1 font-secondary text-white mt-n3 mb-md-4">Hậu & Tánh</h1>
-                            <div class="d-inline-block border-top border-bottom border-light py-3 px-4">
-                                <h3 class="text-uppercase font-weight-normal text-white m-0" style="letter-spacing: 2px;">We're getting married</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <a class="carousel-control-prev justify-content-start" href="#header-carousel" data-slide="prev">
-                <div class="btn btn-primary px-0" style="width: 68px; height: 68px;">
-                    <span class="carousel-control-prev-icon mt-3"></span>
-                </div>
-            </a>
-            <a class="carousel-control-next justify-content-end" href="#header-carousel" data-slide="next">
-                <div class="btn btn-primary px-0" style="width: 68px; height: 68px;">
-                    <span class="carousel-control-next-icon mt-3"></span>
-                </div>
-            </a>
-        </div>
-    </div>
-    <!-- Carousel End -->
-
-
-    <!-- Video Modal Start -->
-    <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>        
-                    <!-- 16:9 aspect ratio -->
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always"></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Video Modal End -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <!-- Countdown Start -->    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
-    <!-- About Start -->
-    <div class="container-fluid py-5" id="about">
-        <div class="container py-5">
-            <div class="section-title position-relative text-center">
-                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">About</h6>
-                <h1 class="font-secondary display-4">Cô dâu & Chú rễ</h1>
-                <i class="far fa-heart text-dark"></i>
-            </div>
-            <div class="row m-0 mb-4 mb-md-0 pb-2 pb-md-0">
-                <div class="col-md-6 p-0 text-center text-md-right">
-                    <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-5">
-                        <h3 class="mb-3">Chú rễ</h3>
-                        <p>
-                            Trong cái nhìn đầu tiên, anh đã biết rằng em là người đặc biệt, người mà anh muốn chia sẻ cuộc sống này.
-                            Mọi khoảnh khắc bên em là một khoảnh khắc đáng nhớ, và anh không thể tin rằng chúng ta đang đứng ở đây, tay trong tay, chuẩn bị bước vào cuộc hành trình hạnh phúc này.
-                        </p>
-                        <h3 class="font-secondary font-weight-normal text-muted mb-3"><i class="fa fa-male text-primary pr-3"></i>Hậu</h3>
-                        <div class="position-relative">
-                            <a class="btn btn-outline-primary btn-square mr-1" target="_blank" href="https://www.facebook.com/nphausg"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-primary btn-square mr-1" target="_blank" href="https://www.linkedin.com/in/nphausg"><i class="fab fa-linkedin-in"></i></a>
-                            <a class="btn btn-outline-primary btn-square" target="_blank" href="https://medium.com/@nphausg"><i class="fab fa-medium"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 p-0" style="min-height: 400px;">
-                    <img class="position-absolute w-100 h-100" src="img/groom.jpg" style="object-fit: cover;">
-                </div>
-            </div>
-            <div class="row m-0">
-                <div class="col-md-6 p-0" style="min-height: 400px;">
-                    <img class="position-absolute w-100 h-100" src="img/bride.jpg" style="object-fit: cover;">
-                </div>
-                <div class="col-md-6 p-0 text-center text-md-left">
-                    <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-5">
-                        <h3 class="mb-3">Cô dâu</h3>
-                        <p>Lorem elitr magna stet rebum dolores sed. Est stet labore est lorem lorem at amet sea, eos tempor rebum, labore amet ipsum sea lorem, stet rebum eirmod amet. Kasd clita kasd stet amet est dolor elitr.</p>
-                        <h3 class="font-secondary font-weight-normal text-muted mb-3"><i class="fa fa-female text-primary pr-3"></i>Tánh</h3>
-                        <div class="position-relative">
-                            <a class="btn btn-outline-primary btn-square mr-1" target="_blank"  href="https://www.instagram.com/xuantanhtran"><i class="fab fa-instagram"></i></a>
-                            <a class="btn btn-outline-primary btn-square mr-1" target="_blank"  href="https://www.facebook.com/onlylove343"><i class="fab fa-facebook-f"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- About End -->
+	<!--Favicon-->
+    <link rel="shortcut icon" href="favicon.ico" title="Favicon"/>
 
-
-    <!-- Story Start -->
-    <div class="container-fluid py-5" id="story">
-        <div class="container pt-5 pb-3">
-            <div class="section-title position-relative text-center">
-                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Story</h6>
-                <h1 class="font-secondary display-4">Our Love Story</h1>
-                <i class="far fa-heart text-dark"></i>
-            </div>
-            <div class="container timeline position-relative p-0">
-                <div class="row">
-                    <div class="col-md-6 text-center text-md-right">
-                        <img class="img-fluid mr-md-3" src="img/story-1.jpg" alt="">
-                    </div>
-                    <div class="col-md-6 text-center text-md-left">
-                        <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4 ml-md-3">
-                            <h4 class="mb-2">Lần gặp đầu tiên</h4>
-                            <p class="text-uppercase mb-2">2017</p>
-                            <p class="m-0">Lorem elitr magna stet rebum dolores sed. Est stet labore est lorem lorem at amet sea, eos tempor rebum, labore amet ipsum sea lorem, stet rebum eirmod amet. Kasd clita kasd stet amet est dolor elitr.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6 text-center text-md-right">
-                        <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4 mr-md-3">
-                            <h4 class="mb-2">Lần hẹn hò đầu tiên</h4>
-                            <p class="text-uppercase mb-2">01 Jan 2050</p>
-                            <p class="m-0">Lorem elitr magna stet rebum dolores sed. Est stet labore est lorem lorem at amet sea, eos tempor rebum, labore amet ipsum sea lorem, stet rebum eirmod amet. Kasd clita kasd stet amet est dolor elitr.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 text-center text-md-left">
-                        <img class="img-fluid ml-md-3" src="img/story-2.jpg" alt="">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6 text-center text-md-right">
-                        <img class="img-fluid mr-md-3" src="img/story-3.jpg" alt="">
-                    </div>
-                    <div class="col-md-6 text-center text-md-left">
-                        <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4 ml-md-3">
-                            <h4 class="mb-2">Proposal</h4>
-                            <p class="text-uppercase mb-2">01 Jan 2050</p>
-                            <p class="m-0">Lorem elitr magna stet rebum dolores sed. Est stet labore est lorem lorem at amet sea, eos tempor rebum, labore amet ipsum sea lorem, stet rebum eirmod amet. Kasd clita kasd stet amet est dolor elitr.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6 text-center text-md-right">
-                        <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4 mr-md-3">
-                            <h4 class="mb-2">Đính hôn</h4>
-                            <p class="text-uppercase mb-2">23-07-2023</p>
-                            <p class="m-0"> 
-                                Hạnh phúc và phấn khích là cảm xúc chính của chúng tôi trong lễ đính hôn.
-                                Có lẽ vì sắp bước vào cuộc sống mới cùng nhau và đã chính thức cam kết với tình yêu của mình.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 text-center text-md-left">
-                        <img class="img-fluid ml-md-3" src="img/story-4.jpg" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Story End -->
-
-
-    <!-- Gallery Start -->
-    <div class="container-fluid bg-gallery" id="gallery" style="padding: 120px 0; margin: 90px 0;">
-        <div class="section-title position-relative text-center" style="margin-bottom: 120px;">
-            <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Gallery</h6>
-            <h1 class="font-secondary display-4 text-white">Our Photo Gallery</h1>
-            <i class="far fa-heart text-white"></i>
-        </div>
-        <div class="owl-carousel gallery-carousel">
-            <div class="gallery-item">
-                <img class="img-fluid w-100 h-100" src="img/gallery-1.jpg" alt="">
-                <a href="img/gallery-1.jpg" data-lightbox="gallery">
-                    <i class="fa fa-2x fa-plus text-white"></i>
-                </a>
-            </div>
-            <div class="gallery-item">
-                <img class="img-fluid w-100" src="img/gallery-2.jpg" alt="">
-                <a href="img/gallery-2.jpg" data-lightbox="gallery">
-                    <i class="fa fa-2x fa-plus text-white"></i>
-                </a>
-            </div>
-            <div class="gallery-item">
-                <img class="img-fluid w-100" src="img/gallery-3.jpg" alt="">
-                <a href="img/gallery-3.jpg" data-lightbox="gallery">
-                    <i class="fa fa-2x fa-plus text-white"></i>
-                </a>
-            </div>
-            <div class="gallery-item">
-                <img class="img-fluid w-100" src="img/gallery-4.jpg" alt="">
-                <a href="img/gallery-4.jpg" data-lightbox="gallery">
-                    <i class="fa fa-2x fa-plus text-white"></i>
-                </a>
-            </div>
-            <div class="gallery-item">
-                <img class="img-fluid w-100" src="img/gallery-5.jpg" alt="">
-                <a href="img/gallery-5.jpg" data-lightbox="gallery">
-                    <i class="fa fa-2x fa-plus text-white"></i>
-                </a>
-            </div>
-            <div class="gallery-item">
-                <img class="img-fluid w-100" src="img/gallery-6.jpg" alt="">
-                <a href="img/gallery-6.jpg" data-lightbox="gallery">
-                    <i class="fa fa-2x fa-plus text-white"></i>
-                </a>
-            </div>
-            <div class="gallery-item">
-                <img class="img-fluid w-100" src="img/gallery-7.jpg" alt="">
-                <a href="img/gallery-7.jpg" data-lightbox="gallery">
-                    <i class="fa fa-2x fa-plus text-white"></i>
-                </a>
-            </div>
-            <div class="gallery-item">
-                <img class="img-fluid w-100" src="img/gallery-8.jpg" alt="">
-                <a href="img/gallery-8.jpg" data-lightbox="gallery">
-                    <i class="fa fa-2x fa-plus text-white"></i>
-                </a>
-            </div>
-            <div class="gallery-item">
-                <img class="img-fluid w-100" src="img/gallery-9.jpg" alt="">
-                <a href="img/gallery-9.jpg" data-lightbox="gallery">
-                    <i class="fa fa-2x fa-plus text-white"></i>
-                </a>
-            </div>
-            <div class="gallery-item">
-                <img class="img-fluid w-100" src="img/gallery-10.jpg" alt="">
-                <a href="img/gallery-10.jpg" data-lightbox="gallery">
-                    <i class="fa fa-2x fa-plus text-white"></i>
-                </a>
-            </div>
-            <div class="gallery-item">
-                <img class="img-fluid w-100" src="img/gallery-11.jpg" alt="">
-                <a href="img/gallery-11.jpg" data-lightbox="gallery">
-                    <i class="fa fa-2x fa-plus text-white"></i>
-                </a>
-            </div>
-            <div class="gallery-item">
-                <img class="img-fluid w-100" src="img/gallery-12.jpg" alt="">
-                <a href="img/gallery-12.jpg" data-lightbox="gallery">
-                    <i class="fa fa-2x fa-plus text-white"></i>
-                </a>
-            </div>
-            <div class="gallery-item">
-                <img class="img-fluid w-100" src="img/gallery-13.jpg" alt="">
-                <a href="img/gallery-13.jpg" data-lightbox="gallery">
-                    <i class="fa fa-2x fa-plus text-white"></i>
-                </a>
-            </div>
-            <div class="gallery-item">
-                <img class="img-fluid w-100" src="img/gallery-14.jpg" alt="">
-                <a href="img/gallery-14.jpg" data-lightbox="gallery">
-                    <i class="fa fa-2x fa-plus text-white"></i>
-                </a>
-            </div>
-            <div class="gallery-item">
-                <img class="img-fluid w-100" src="img/gallery-15.jpg" alt="">
-                <a href="img/gallery-15.jpg" data-lightbox="gallery">
-                    <i class="fa fa-2x fa-plus text-white"></i>
-                </a>
-            </div>
-            <div class="gallery-item">
-                <img class="img-fluid w-100" src="img/gallery-16.jpg" alt="">
-                <a href="img/gallery-16.jpg" data-lightbox="gallery">
-                    <i class="fa fa-2x fa-plus text-white"></i>
-                </a>
-            </div>
-        </div>
-    </div>
-    <!-- Gallery End -->
-
-
-    <!-- Event Start -->
-    <div class="container-fluid py-5" id="event">
-        <div class="container py-5">
-            <div class="section-title position-relative text-center">
-                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Event</h6>
-                <h1 class="font-secondary display-4">Thông tin lễ cưới</h1>
-                <i class="far fa-heart text-dark"></i>
-            </div>
-            <div class="row justify-content-center">
-                <h5 class="font-weight-normal text-muted mb-3 pb-3">Sự hiện diện của các bạn trong lễ cưới của chúng tôi đã làm cho ngày này trở thành một kỷ niệm đáng nhớ và ấm áp hơn bao giờ hết. Chúng tôi xin gửi lời cảm ơn chân thành đến mọi người vì đã dành thời gian và tình cảm để đến chia vui cùng chúng tôi trong dịp này.</h5>
-            </div>
-            <div class="row">
-                <div class="col-md-6 border-right border-primary">
-                    <div class="text-center text-md-right mr-md-3 mb-4 mb-md-0">
-                        <img class="img-fluid mb-4" src="img/event-1.jpg" alt="">
-                        <h4 class="mb-3">Lễ Đính Hôn</h4>
-                        <p class="mb-2">Huyện Long Hồ, tỉnh Vĩnh Long</p>
-                        <p class="mb-0">Chủ Nhật | 23-07-2023 | 09:00</p>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="text-center text-md-left ml-md-3">
-                        <img class="img-fluid mb-4" src="img/event-2.jpg" alt="">
-                        <h4 class="mb-3">Lễ Thành Hôn</h4>
-                        <p class="mb-2">Huyện Chợ Gạo, tỉnh Tiền Giang</p>
-                        <p class="mb-0">Chủ Nhật | 12-11-2023 | 07:00</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row" style="margin-top: 32px;">
-                <div class="text-center" style="margin: auto; width: 50%;">
-                    <h4 class="mb-3">Tiệc Báo Hỷ</h4>
-                    <h5 class="mb-3">Gala Royale</h5>
-                    <p class="mb-0">Chủ Nhật | 17-12-2023 | 18:00</p>
-                </div>
-                <iframe 
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1558.9762947158733!2d106.69510802015455!3d10.787669932557408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f34ef5cc4ff%3A0x15742e9434453027!2zVMOyYSBOaMOgIFPhu7EgS2nhu4duIEdhbGEgUm95YWxl!5e0!3m2!1sen!2ssg!4v1694938813657!5m2!1sen!2ssg"
-                        width="100%" 
-                        height="450"
-                        style="border:0; margin-top: 16px" 
-                        allowfullscreen="" 
-                        loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"/>
-            </div>
-        </div>
-    </div>
-    <!-- Event End -->
-
-    <div class="container-fluid py-5"" style="margin: 0 auto;">
-        <iframe width="640" 
-            height="340" 
-            style="display:block; margin: 0 auto;"
-            src="https://www.youtube.com/embed/yI6KQTE_vgo?si=rUUH0BlDd54ufAiq"
-            title="Engagement" 
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-        </iframe>
-    </div>
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
     
-    <!-- RSVP Start -->
-    <div class="container-fluid py-5" id="rsvp">
-        <div class="container py-5">
-            <div class="section-title position-relative text-center">
-                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">RSVP</h6>
-                <h1 class="font-secondary display-4">Chúc phúc Online </h1>
-                <i class="far fa-heart text-dark"></i>
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+	  
+	  
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html"><span>L</span> E O N</a>
+	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav nav ml-auto">
+	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+	          <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
+	          <li class="nav-item"><a href="#services-section" class="nav-link"><span>Services</span></a></li>
+	          <li class="nav-item"><a href="#projects-section" class="nav-link"><span>Projects</span></a></li>
+	          <li class="nav-item"><a href="#blog-section" class="nav-link"><span>My Blog</span></a></li>
+	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+	  <section class="hero-wrap js-fullheight">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text js-fullheight justify-content-center align-items-center">
+          <div class="col-lg-8 col-md-6 ftco-animate d-flex align-items-center">
+          	<div class="text text-center">
+          		<span class="subheading">Hey! I am</span>
+		  				<h1>Leo N</h1>
+			  				<h2>I'm a 
+								  <span
+								     class="txt-rotate"
+								     data-period="2000"
+								     data-rotate='[ "Mobile Engineer.", "Engineer.", "Lead Software Engineer, Mobile", "Senior Engineer.", "Senior Engineer, Mobile" ]'></span>
+								</h2>
+							</div>
             </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="text-center">
-                        <form>
-                            <div class="form-row">
-                                <div class="form-group col-sm-6">
-                                    <input type="text" class="form-control bg-secondary border-0 py-4 px-3" placeholder="Your Name"/>
-                                </div>
-                                <div class="form-group col-sm-6">
-                                    <input type="email" class="form-control bg-secondary border-0 py-4 px-3" placeholder="Your Email"/>
-                                </div>
-                            </div>
-                            <div class="form-row">
-                                <div class="form-group col-sm-6">
-                                    <select class="form-control bg-secondary border-0" style="height: 52px;">
-                                        <option>Number of Guest</option>
-                                        <option>1</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                        <option>4</option>
-                                    </select>
-                                </div>
-                                <div class="form-group col-sm-6">
-                                    <select class="form-control bg-secondary border-0" style="height: 52px;">
-                                        <option>I'm Attending</option>
-                                        <option>All Events</option>
-                                        <option>Wedding Party</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <textarea class="form-control bg-secondary border-0 py-2 px-3" rows="5" placeholder="Message" required="required"></textarea>
-                            </div>
-                            <div>
-                                <button class="btn btn-primary font-weight-bold py-3 px-5" type="submit">Submit</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
-        <div class="position-relative text-center">
-            <h1 class="font-secondary display-4">Mừng cưới</h1>
+      </div>
+      <div class="mouse">
+				<a href="#" class="mouse-icon">
+					<div class="mouse-wheel"><span class="ion-ios-arrow-round-down"></span></div>
+				</a>
+			</div>
+    </section>
+
+    <section class="ftco-about img ftco-section ftco-no-pt ftco-no-pb" id="about-section">
+    	<div class="container">
+    		<div class="row d-flex no-gutters">
+    			<div class="col-md-6 col-lg-6 d-flex">
+    				<div class="img-about img d-flex align-items-stretch">
+    					<div class="overlay"></div>
+	    				<div class="img d-flex align-self-stretch align-items-center" style="background-image:url(images/about.jpg);">
+	    				</div>
+    				</div>
+    			</div>
+    			<div class="col-md-6 col-lg-6 pl-md-5 py-5">
+    				<div class="row justify-content-start pb-3">
+		          <div class="col-md-12 heading-section ftco-animate">
+		          	<h1 class="big">About</h1>
+		            <h2 class="mb-4">About Me</h2>
+		            <p>🎓 “A person who never made a mistake never tried anything new.” — Albert Einstein</p>
+		            <ul class="about-info mt-4 px-md-0 px-2">
+		            	<li class="d-flex"><span>Name:</span> <span>Leo N</span></li>
+		            	<li class="d-flex"><span>Address:</span> <span>One-North, 3 Media Cl, Singapore</span></li>
+		            	<li class="d-flex"><span>Zip code:</span> <span>138498</span></li>
+		            	<li class="d-flex"><span>Email:</span> <span>nphausg@gmail.com</span></li>
+		            </ul>
+		          </div>
+		        </div>
+	          <div class="counter-wrap ftco-animate d-flex mt-md-3">
+              <div class="text">
+              	<p class="mb-4">
+	                <span class="number" data-number="120">0</span>
+	                <span>Projects completed</span>
+                </p>
+				<p class="mb-4">
+	                <span class="number" data-number="180">0</span>
+	                <span>Trained person</span>
+                </p>
+				<p class="mb-4">
+	                <span class="number" data-number="40">0</span>
+	                <span>Awards/Certificates</span>
+                </p>
+                <p><a href="https://www.linkedin.com/in/nphausg/" target="_blank" class="btn btn-primary py-3 px-3">Download CV</a></p>
+              </div>
+	          </div>
+	        </div>
         </div>
-        <div class="row" style="margin-top: 32px;">
-                <div class="col-md-6 border-right border-primary">
-                    <div class="text-center mr-md-3 mb-4 mb-md-0">
-                        <h4 class="mb-3">ACB: 33634967</h4>
-                        <img class="img-fluid mb-4" src="img/pay_vn.jpg" alt="" style="height: 256px">
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="text-center mr-md-3 mb-4 mb-md-0">
-                        <h4 class="mb-3">Paynow: 97520452</h4>
-                        <img class="img-fluid mb-4" src="img/pay_sg.jpg" alt="" style="width: 256px; height: 256px">
-                    </div>
-                </div>
-            </div>
-    </div>
-    <!-- RSVP End -->
+    	</div>
+    </section>
 
+    <section class="ftco-section ftco-partner">
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-sm ftco-animate">
+    				<a href="#" class="partner"><img src="images/gxs.png" class="img-fluid" ></a>
+    			</div>
+    			<div class="col-sm ftco-animate">
+    				<a href="#" class="partner"><img src="images/futa.png" class="img-fluid" ></a>
+    			</div>
+    			<div class="col-sm ftco-animate">
+    				<a href="#" class="partner"><img src="images/hope.png" class="img-fluid" ></a>
+    			</div>
+    			<div class="col-sm ftco-animate">
+    				<a href="#" class="partner"><img src="images/partner-4.png" class="img-fluid" ></a>
+    			</div>
+    			<div class="col-sm ftco-animate">
+    				<a href="#" class="partner"><img src="images/partner-5.png" class="img-fluid" ></a>
+    			</div>
+				<div class="col-sm ftco-animate">
+    				<a href="#" class="partner"><img src="images/partner-6.png" class="img-fluid" ></a>
+    			</div>
+    		</div>
+    	</div>
+    </section>
 
-    <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-white py-5" id="contact">
-        <div class="container text-center py-5">
-            <div class="section-title position-relative text-center">
-                <h1 class="font-secondary display-3 text-white">Thank You</h1>
-                <i class="far fa-heart text-white"></i>
-            </div>
-            <div class="d-flex justify-content-center mb-4">
-                <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" target="_blank" href="https://medium.com/@nphausg"><i class="fab fa-medium"></i></a>
-                <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" target="_blank" href="https://www.facebook.com/nphausg"><i class="fab fa-facebook-f"></i></a>
-                <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" target="_blank" href="https://www.linkedin.com/in/nphausg"><i class="fab fa-linkedin-in"></i></a>
-                <a class="btn btn-lg btn-outline-light btn-lg-square" target="_blank" href="https://www.instagram.com/xuantanhtran"><i class="fab fa-instagram"></i></a>
-            </div>
-            <div class="d-flex justify-content-center py-2">
-                <p class="text-white">Cô dâu: Tánh Trần 076.456.6168</p>
-            </div>
-            <p class="text-white" href="mailto:xuantanh130@gmail.com">
-                <a href="mailto:xuantanh130@gmail.com">Email: xuantanh130@gmail.com</a>
-            </p>
+    <section class="ftco-section ftco-no-pb goto-here" id="resume-section">
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-md-3">
+				    <nav id="navi">
+					    <ul>
+					      <li><a href="#page-1">Experience</a></li>
+					      <li><a href="#page-2">Education</a></li>
+					      <li><a href="#page-3">Skills</a></li>
+					      <li><a href="#page-4">Awards</a></li>
+					    </ul>
+					  </nav>
+					</div>
+					<div class="col-md-9">
+					<div id="page-1" class= "page one">
+					  	<h2 class="heading">Experience</h2>
+					    <div class="resume-wrap d-flex ftco-animate">
+					    	<div class="icon d-flex align-items-center justify-content-center">
+								<img src="images/gxs.png" style="width: 56px; height: 56px"/>
+					    	</div>
+					    	<div class="text pl-3">
+		    					<span class="date">June 2022 - Now</span>
+		    					<h2>Senior software engineer</h2>
+		    					<span class="position">GXS Bank Pte Ltd, Singapore</span>
+		    					<p>
+									Work closely with the Product, UX/UI and Backend teams to design,
+									build and extend consumer and/or partner facing new products, platforms and features for digital bank in Singapore
+								</p>
+		    				</div>
+	    				</div>
+	    				<div class="resume-wrap d-flex ftco-animate">
+	    					<div class="icon d-flex align-items-center justify-content-center">
+					    		<img src="images/futa.png" style="width: 56px; height: 56px"/>
+					    	</div>
+					    	<div class="text pl-3">
+		    					<span class="date">Jan 2019 - Dec 2021</span>
+		    					<h2>Lead software engineer</h2>
+		    					<span class="position">FUTA Group, Vietnam</span>
+		    					<p>
+									Lead the engineers to achieve product, business and technical goals.
+									Worked closely with PO, UI/UX Designer, Backend to design workflow, solution, API swagger.
+									Decided which technologies was going to be used in team, built core modules and libraries for all FUTA ecosystem with Clean Architecture, MVVM, KMM, SwiftUI.
+								</p>
+		    				</div>
+	    				</div>
+	    				<div class="resume-wrap d-flex ftco-animate">
+	    					<div class="icon d-flex align-items-center justify-content-center">
+					    		<img src="images/hope.png" style="width: 56px; height: 56px"/>
+					    	</div>
+					    	<div class="text pl-3">
+		    					<span class="date">Auth 2015 - Dec 2018</span>
+		    					<h2>Software engineer</h2>
+		    					<span class="position">Hope Software JSC, Vietnam</span>
+		    					<p>
+									Worked with China teams using English, built up an SDK for the games based on C/C++ store sensitive information, integrated with Unity, Cocos. Helped them integrate Game Unity SDK, monitored their feedback for problems and proactively scheduled resolutions.
+									Applied, training modern android architecture: MVP, RxJava, Retrofit, Glide, Dagger 2, Realm for the team.
+								</p>
+		    				</div>
+	    				</div>
+					  </div>
+
+					  <div id="page-2" class= "page two">
+					  	<h2 class="heading">Education</h2>
+					    <div class="resume-wrap d-flex ftco-animate">
+					    	<div class="icon d-flex align-items-center justify-content-center">
+					    		<img src="images/ULCB.png" style="width: 56px; height: 56px; background: white"/>
+					    	</div>
+					    	<div class="text pl-3">
+		    					<span class="date">Dec 2020 - Jun 2023</span>
+		    					<h2>Master of Science</h2>
+								<h5>Master of Information System</h5>
+		    					<span class="position">Université Claude Bernard Lyon 1, France</span>
+		    					<p>
+									Top 25 good students, very good degree in Honors program of Information Technology Faculty.
+								</p>
+		    				</div>
+	    				</div>
+						<div class="resume-wrap d-flex ftco-animate">
+	    					<div class="icon d-flex align-items-center justify-content-center">
+					    		<img src="images/hcmus.png" style="height: 56px; background: white"/>
+					    	</div>
+					    	<div class="text pl-3">
+		    					<span class="date">Dec 2020 - Jun 2023</span>
+		    					<h2>Master of Science</h2>
+								<h5>Master of Information System</h5>
+		    					<span class="position">University of Science, Chi Chi Minh, Vietnam</span>
+		    					<p>
+									Top 25 good students, very good degree in Honors program of Information Technology Faculty.
+								</p>
+		    				</div>
+	    				</div>
+	    				<div class="resume-wrap d-flex ftco-animate">
+	    					<div class="icon d-flex align-items-center justify-content-center">
+					    		<img src="images/hcmus.png" style="height: 56px; background: white"/>
+					    	</div>
+					    	<div class="text pl-3">
+		    					<span class="date">Sep 2013 - Sep 2017</span>
+		    					<h2>Bachelor of Science</h2>
+								<h5>Computer Science</h5>
+		    					<span class="position">University of Science, Chi Chi Minh, Vietnam</span>
+		    					<p>
+									Top 25 good students, very good degree in Honors program of Information Technology Faculty.
+								</p>
+		    				</div>
+	    				</div>
+					  </div>
+
+					  
+					  <div id="page-3" class= "page three">
+					  	<h2 class="heading">Skills</h2>
+					  	<div class="row progress-circle mb-5">
+					  		<div class="col-lg-4 mb-4">
+						      <div class="bg-white rounded-lg shadow p-4">
+						        <h2 class="h5 font-weight-bold text-center mb-4">CSS</h2>
+
+						        <!-- Progress bar 1 -->
+						        <div class="progress mx-auto" data-value='90'>
+						          <span class="progress-left">
+                        <span class="progress-bar border-primary"></span>
+						          </span>
+						          <span class="progress-right">
+                        <span class="progress-bar border-primary"></span>
+						          </span>
+						          <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+						            <div class="h2 font-weight-bold">90<sup class="small">%</sup></div>
+						          </div>
+						        </div>
+						        <!-- END -->
+
+						        <!-- Demo info -->
+						        <div class="row text-center mt-4">
+						          <div class="col-6 border-right">
+						            <div class="h4 font-weight-bold mb-0">28%</div><span class="small text-gray">Last week</span>
+						          </div>
+						          <div class="col-6">
+						            <div class="h4 font-weight-bold mb-0">60%</div><span class="small text-gray">Last month</span>
+						          </div>
+						        </div>
+						        <!-- END -->
+						      </div>
+						    </div>
+
+						    <div class="col-lg-4 mb-4">
+						      <div class="bg-white rounded-lg shadow p-4">
+						        <h2 class="h5 font-weight-bold text-center mb-4">HTML</h2>
+
+						        <!-- Progress bar 1 -->
+						        <div class="progress mx-auto" data-value='80'>
+						          <span class="progress-left">
+                        <span class="progress-bar border-primary"></span>
+						          </span>
+						          <span class="progress-right">
+                        <span class="progress-bar border-primary"></span>
+						          </span>
+						          <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+						            <div class="h2 font-weight-bold">80<sup class="small">%</sup></div>
+						          </div>
+						        </div>
+						        <!-- END -->
+
+						        <!-- Demo info -->
+						        <div class="row text-center mt-4">
+						          <div class="col-6 border-right">
+						            <div class="h4 font-weight-bold mb-0">28%</div><span class="small text-gray">Last week</span>
+						          </div>
+						          <div class="col-6">
+						            <div class="h4 font-weight-bold mb-0">60%</div><span class="small text-gray">Last month</span>
+						          </div>
+						        </div>
+						        <!-- END -->
+						      </div>
+						    </div>
+
+						    <div class="col-lg-4 mb-4">
+						      <div class="bg-white rounded-lg shadow p-4">
+						        <h2 class="h5 font-weight-bold text-center mb-4">jQuery</h2>
+
+						        <!-- Progress bar 1 -->
+						        <div class="progress mx-auto" data-value='75'>
+						          <span class="progress-left">
+                        <span class="progress-bar border-primary"></span>
+						          </span>
+						          <span class="progress-right">
+                        <span class="progress-bar border-primary"></span>
+						          </span>
+						          <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+						            <div class="h2 font-weight-bold">75<sup class="small">%</sup></div>
+						          </div>
+						        </div>
+						        <!-- END -->
+
+						        <!-- Demo info -->
+						        <div class="row text-center mt-4">
+						          <div class="col-6 border-right">
+						            <div class="h4 font-weight-bold mb-0">28%</div><span class="small text-gray">Last week</span>
+						          </div>
+						          <div class="col-6">
+						            <div class="h4 font-weight-bold mb-0">60%</div><span class="small text-gray">Last month</span>
+						          </div>
+						        </div>
+						        <!-- END -->
+						      </div>
+						    </div>
+					  	</div>
+					  	<div class="row">
+					  		<div class="col-md-6 animate-box">
+									<div class="progress-wrap ftco-animate">
+										<h3>Photoshop</h3>
+										<div class="progress">
+										 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="90"
+										  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
+										    <span>90%</span>
+										  	</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 animate-box">
+									<div class="progress-wrap ftco-animate">
+										<h3>jQuery</h3>
+										<div class="progress">
+										 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="85"
+										  	aria-valuemin="0" aria-valuemax="100" style="width:85%">
+										    <span>85%</span>
+										  	</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 animate-box">
+									<div class="progress-wrap ftco-animate">
+										<h3>HTML5</h3>
+										<div class="progress">
+										 	<div class="progress-bar color-3" role="progressbar" aria-valuenow="95"
+										  	aria-valuemin="0" aria-valuemax="100" style="width:95%">
+										    <span>95%</span>
+										  	</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 animate-box">
+									<div class="progress-wrap ftco-animate">
+										<h3>CSS3</h3>
+										<div class="progress">
+										 	<div class="progress-bar color-4" role="progressbar" aria-valuenow="90"
+										  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
+										    <span>90%</span>
+										  	</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 animate-box">
+									<div class="progress-wrap ftco-animate">
+										<h3>WordPress</h3>
+										<div class="progress">
+										 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="70"
+										  	aria-valuemin="0" aria-valuemax="100" style="width:70%">
+										    <span>70%</span>
+										  	</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 animate-box">
+									<div class="progress-wrap ftco-animate">
+										<h3>SEO</h3>
+										<div class="progress">
+										 	<div class="progress-bar color-6" role="progressbar" aria-valuenow="80"
+										  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
+										    <span>80%</span>
+										  	</div>
+										</div>
+									</div>
+								</div>
+					  	</div>
+					  </div>
+					  <div id="page-4" class= "page four">
+					    <h2 class="heading">Awards</h2>
+					    <div class="resume-wrap d-flex ftco-animate">
+					    	<div class="icon d-flex align-items-center justify-content-center">
+					    		<span class="flaticon-ideas"></span>
+					    	</div>
+					    	<div class="text pl-3">
+		    					<span class="date">2014-2015</span>
+		    					<h2>Top 10 Web Developer</h2>
+		    					<span class="position">Cambridge University</span>
+		    					<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+	    					</div>
+	    				</div>
+	    				<div class="resume-wrap d-flex ftco-animate">
+	    					<div class="icon d-flex align-items-center justify-content-center">
+					    		<span class="flaticon-ideas"></span>
+					    	</div>
+					    	<div class="text pl-3">
+		    					<span class="date">2014-2015</span>
+		    					<h2>Top 5 LeaderShip Exellence Winner</h2>
+		    					<span class="position">Cambridge University</span>
+		    					<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+		    				</div>
+	    				</div>
+	    				<div class="resume-wrap d-flex ftco-animate">
+	    					<div class="icon d-flex align-items-center justify-content-center">
+					    		<span class="flaticon-ideas"></span>
+					    	</div>
+					    	<div class="text pl-3">
+		    					<span class="date">2014-2015</span>
+		    					<h2>Top 4 Web Tester</h2>
+		    					<span class="position">Cambridge University</span>
+		    					<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+		    				</div>
+	    				</div>
+	    				<div class="resume-wrap d-flex ftco-animate">
+	    					<div class="icon d-flex align-items-center justify-content-center">
+					    		<span class="flaticon-ideas"></span>
+					    	</div>
+					    	<div class="text pl-3">
+		    					<span class="date">2014-2015</span>
+		    					<h2>Art &amp; Creative Director</h2>
+		    					<span class="position">Cambridge University</span>
+		    					<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+		    				</div>
+	    				</div>
+					  </div>
+					</div>
+			  </div>
+    	</div>
+    </section>
+
+    <section class="ftco-section" id="services-section">
+    	<div class="container-fluid px-md-5">
+    		<div class="row justify-content-center py-5 mt-5">
+          <div class="col-md-12 heading-section text-center ftco-animate">
+          	<h1 class="big big-2">Services</h1>
+            <h2 class="mb-4">Services</h2>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+          </div>
         </div>
-    </div>
-    <!-- Footer End -->
+    		<div class="row">
+					<div class="col-md-4 text-center d-flex ftco-animate">
+						<a href="#" class="services-1 shadow">
+							<span class="icon">
+								<i class="flaticon-analysis"></i>
+							</span>
+							<div class="desc">
+								<h3 class="mb-5">Web Design</h3>
+								<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4 text-center d-flex ftco-animate">
+						<a href="#" class="services-1 shadow">
+							<span class="icon">
+								<i class="flaticon-flasks"></i>
+							</span>
+							<div class="desc">
+								<h3 class="mb-5">Phtography</h3>
+								<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4 text-center d-flex ftco-animate">
+						<a href="#" class="services-1 shadow">
+							<span class="icon">
+								<i class="flaticon-ideas"></i>
+							</span>
+							<div class="desc">
+								<h3 class="mb-5">Web Developer</h3>
+								<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+							</div>
+						</a>
+					</div>
+
+					<div class="col-md-4 text-center d-flex ftco-animate">
+						<a href="#" class="services-1 shadow">
+							<span class="icon">
+								<i class="flaticon-innovation"></i>
+							</span>
+							<div class="desc">
+								<h3 class="mb-5">App Developing</h3>
+								<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4 text-center d-flex ftco-animate">
+						<a href="#" class="services-1 shadow">
+							<span class="icon">
+								<i class="flaticon-ux-design"></i>
+							</span>
+							<div class="desc">
+								<h3 class="mb-5">Branding</h3>
+								<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4 text-center d-flex ftco-animate">
+						<a href="#" class="services-1 shadow">
+							<span class="icon">
+								<i class="flaticon-idea"></i>
+							</span>
+							<div class="desc">
+								<h3 class="mb-5">Product Strategy</h3>
+								<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+							</div>
+						</a>
+					</div>
+				</div>
+    	</div>
+    </section>
+ 
+
+    <section class="ftco-section ftco-project" id="projects-section">
+    	<div class="container-fluid px-md-0">
+    		<div class="row no-gutters justify-content-center pb-5">
+          <div class="col-md-12 heading-section text-center ftco-animate">
+          	<h1 class="big big-2">Projects</h1>
+            <h2 class="mb-4">Our Projects</h2>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+          </div>
+        </div>
+    		<div class="row no-gutters">
+    			<div class="col-md-4">
+    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-1.jpg);">
+    					<div class="overlay"></div>
+	    				<div class="text text-center p-4">
+	    					<h3><a href="#">Branding &amp; Illustration Design</a></h3>
+	    					<span>Web Design</span>
+	    				</div>
+    				</div>
+  				</div>
+  				<div class="col-md-4">
+    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-2.jpg);">
+    					<div class="overlay"></div>
+	    				<div class="text text-center p-4">
+	    					<h3><a href="#">Branding &amp; Illustration Design</a></h3>
+	    					<span>Web Design</span>
+	    				</div>
+    				</div>
+  				</div>
+
+    			<div class="col-md-4">
+    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-3.jpg);">
+    					<div class="overlay"></div>
+	    				<div class="text text-center p-4">
+	    					<h3><a href="#">Branding &amp; Illustration Design</a></h3>
+	    					<span>Web Design</span>
+	    				</div>
+    				</div>
+    			</div>
+    			<div class="col-md-4">
+    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-4.jpg);">
+    					<div class="overlay"></div>
+	    				<div class="text text-center p-4">
+	    					<h3><a href="#">Branding &amp; Illustration Design</a></h3>
+	    					<span>Web Design</span>
+	    				</div>
+    				</div>
+    			</div>
+    			<div class="col-md-4">
+    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-5.jpg);">
+    					<div class="overlay"></div>
+	    				<div class="text text-center p-4">
+	    					<h3><a href="#">Branding &amp; Illustration Design</a></h3>
+	    					<span>Web Design</span>
+	    				</div>
+    				</div>
+    			</div>
+    			<div class="col-md-4">
+    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-6.jpg);">
+    					<div class="overlay"></div>
+	    				<div class="text text-center p-4">
+	    					<h3><a href="#">Branding &amp; Illustration Design</a></h3>
+	    					<span>Web Design</span>
+	    				</div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+
+    <section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
+    	<div class="container-fluid px-md-5">
+				<div class="row d-md-flex align-items-center">
+          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18 shadow">
+              <div class="text">
+                <strong class="number" data-number="100">0</strong>
+                <span>Awards</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18 shadow">
+              <div class="text">
+                <strong class="number" data-number="1200">0</strong>
+                <span>Complete Projects</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18 shadow">
+              <div class="text">
+                <strong class="number" data-number="1200">0</strong>
+                <span>Happy Customers</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18 shadow">
+              <div class="text">
+                <strong class="number" data-number="500">0</strong>
+                <span>Cups of coffee</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
 
-    <!-- Scroll to Bottom -->
-    <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
+    <section class="ftco-section" id="blog-section">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-5">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <h1 class="big big-2">Blog</h1>
+            <h2 class="mb-4">Our Blog</h2>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+          </div>
+        </div>
+        <div class="row d-flex">
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a href="single.html" class="block-20" style="background-image: url('images/image_1.jpg');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+                <h3 class="heading"><a href="single.html">Why Lead Generation is Key for Business Growth</a></h3>
+                <div class="d-flex align-items-center mb-3 meta">
+	                <p class="mb-0">
+	                	<span class="mr-2">Sept. 12, 2019</span>
+	                	<a href="#" class="mr-2">Admin</a>
+	                	<a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
+	                </p>
+                </div>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a href="single.html" class="block-20" style="background-image: url('images/image_2.jpg');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+                <h3 class="heading"><a href="single.html">Why Lead Generation is Key for Business Growth</a></h3>
+                <div class="d-flex align-items-center mb-3 meta">
+	                <p class="mb-0">
+	                	<span class="mr-2">Sept. 12, 2019</span>
+	                	<a href="#" class="mr-2">Admin</a>
+	                	<a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
+	                </p>
+                </div>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry">
+              <a href="single.html" class="block-20" style="background-image: url('images/image_3.jpg');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+                <h3 class="heading"><a href="single.html">Why Lead Generation is Key for Business Growth</a></h3>
+                <div class="d-flex align-items-center mb-3 meta">
+	                <p class="mb-0">
+	                	<span class="mr-2">Sept. 12, 2019</span>
+	                	<a href="#" class="mr-2">Admin</a>
+	                	<a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
+	                </p>
+                </div>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-outline-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
+    <section class="ftco-section ftco-hireme img" style="background-image: url(images/bg_1.jpg)">
+    	<div class="overlay"></div>
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-md-7 ftco-animate text-center">
+						<h2>I'm <span>Available</span> for freelancing</h2>
+						<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+						<p class="mb-0"><a href="#" class="btn btn-primary py-3 px-5">Hire me</a></p>
+					</div>
+				</div>
+			</div>
+		</section>
 
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/isotope/isotope.pkgd.min.js"></script>
-    <script src="lib/lightbox/js/lightbox.min.js"></script>
-    <script src="js/main.js"/>
-</body>
+    <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+      <div class="container">
+      	<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <h1 class="big big-2">Contact</h1>
+            <h2 class="mb-4">Contact Me</h2>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+          </div>
+        </div>
 
+        <div class="row d-flex contact-info mb-5">
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box text-center p-4 shadow">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-map-signs"></span>
+          		</div>
+          		<div>
+	          		<h3 class="mb-4">Address</h3>
+		            <p>One-North, 3 Media Cl, Singapore 138498</p>
+		          </div>
+	          </div>
+          </div>
+		  <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box text-center p-4 shadow">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-phone2"></span>
+          		</div>
+          		<div>
+	          		<h3 class="mb-4">Contact Number</h3>
+		            <p><a href="tel://1234567920">+65 9752 0452</a></p>
+	            </div>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box text-center p-4 shadow">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-paper-plane"></span>
+          		</div>
+          		<div>
+	          		<h3 class="mb-4">Email Address</h3>
+		            <p><a href="mailto:nphausg@gmail.com">nphausg@gmail.com</a></p>
+		          </div>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box text-center p-4 shadow">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-globe"></span>
+          		</div>
+          		<div>
+	          		<h3 class="mb-4">Medium</h3>
+		            <p><a href="#">https://nphausg.medium.com</a></p>
+	            </div>
+	          </div>
+          </div>
+        </div>
+
+        <div class="row no-gutters block-9">
+          <div class="col-md-6 order-md-last d-flex">
+            <form action="#" class="bg-light p-4 p-md-5 contact-form">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Your Name">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Your Email">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Subject">
+              </div>
+              <div class="form-group">
+                <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+              </div>
+              <div class="form-group">
+                <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
+              </div>
+            </form>
+          
+          </div>
+
+          <div class="col-md-6 d-flex">
+          	<div class="img" style="background-image: url(images/about.jpg);"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+		
+
+    <footer class="ftco-footer ftco-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">About</h2>
+              <p>🎓 “A person who never made a mistake never tried anything new.” — Albert Einstein</p>
+              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                <li class="ftco-animate"><a href="https://twitter.com/nphausg" target="_blank"><span class="icon-twitter"></span></a></li>
+                <li class="ftco-animate"><a href="https://github.com/nphausg" target="_blank"><span class="icon-github"></span></a></li>
+                <li class="ftco-animate"><a href="https://nphausg.medium.com" target="_blank"><span class="icon-medium"></span></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4 ml-md-4">
+              <h2 class="ftco-heading-2">Links</h2>
+              <ul class="list-unstyled">
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Home</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>About</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Services</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Projects</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+             <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Services</h2>
+              <ul class="list-unstyled">
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Web Design</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Web Development</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Business Strategy</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Data Analysis</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Graphic Design</a></li>
+              </ul>
+            </div>
+          </div>
+		  <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+            	<h2 class="ftco-heading-2">Have a Questions?</h2>
+            	<div class="block-23 mb-3">
+	              <ul>
+	                <li><span class="icon icon-map-marker"></span><span class="text">One-North, 3 Media Cl, Singapore 138498</span></li>
+	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+65 9752 0452</span></a></li>
+	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">nphausg@gmail.com</span></a></li>
+	              </ul>
+	            </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+
+            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+  
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  
+  <script src="js/main.js"></script>
+    
+  </body>
 </html>
